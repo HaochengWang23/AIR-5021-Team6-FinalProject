@@ -1,4 +1,4 @@
-# 🚴‍♂️ Installation
+# Installation
 ## **Dependencies**
 
 Python versions:
@@ -64,24 +64,4 @@ if np.linalg.norm(delta_twist) < 1e-4 or not within_joint_limit:
                 return {"status": "screw plan failed"}
 ```
 
-## 4. Tactile
-> Please run script/_download_assets.sh again, we have updated the assets for tactile manipulation, which does not affect the rigid object manipulation part.
 
-```
-# Clone Repo
-cd third_party
-git clone --recurse-submodules https://github.com/Rabbit-Hu/sapienipc-exp.git
-cd sapienipc-exp
-pip install -r requirements.txt
-
-# Install warp
-cd warp_
-python build_lib.py --cuda_path /usr/local/cuda  # Replace with your cuda path 
-pip install -e .
-cd ..
-
-# Install Warp IPC for SAPIEN (this Repo)
-pip install -e .
-```
-
-If you meet `lib/libstdc++.so.6: version 'GLIBCXX_3.4.30' not found`：`conda install -c conda-forge gcc=12.1.0`, try [Ref](https://stackoverflow.com/questions/72540359/glibcxx-3-4-30-not-found-for-librosa-in-conda-virtual-environment-after-tryin).
