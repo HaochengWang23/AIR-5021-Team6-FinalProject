@@ -1,4 +1,4 @@
-# AIR-5021-TeamX-FinalProject
+# AIR-5021-Team6-FinalProject
 
 # Installation
 > Please note that you need to strictly follow the steps: **Modify `mplib` Library Code** and **Download Assert**.
