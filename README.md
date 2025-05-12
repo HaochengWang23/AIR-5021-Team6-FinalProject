@@ -1,14 +1,14 @@
 # AIR-5021-TeamX-FinalProject
 
-# 🛠️ Installation
+# Installation
 > Please note that you need to strictly follow the steps: **Modify `mplib` Library Code** and **Download Assert**.
 
 Clone this Repo:
 ```
-git clone -b CVPR-Challenge-2025 https://github.com/TianxingChen/RoboTwin.git
+git clone https://github.com/HaochengWang23//AIR-5021-Team6-FinalProject.git
 ```
 
-See [INSTALL.md](./INSTALL.md) for installation instructions. The installation process takes about 20 minutes.
+See [INSTALL.md](./INSTALL.md) for installation instructions. 
 
 # 🧑🏻‍💻 Usage 
 ## 1. Task Running and Data Collection
