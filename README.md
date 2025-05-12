@@ -35,7 +35,6 @@ bash run_task.sh ${task_name} ${gpu_id}
 
 
 ## 2. Task Config
-> It is recommended to view [Config Tutorial](./CONFIG_TUTORIAL.md) for more details.
 
 Data collection configurations are located in the `config` folder, corresponding to each task. 
 
