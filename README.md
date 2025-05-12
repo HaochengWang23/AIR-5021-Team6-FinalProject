@@ -10,7 +10,7 @@ git clone https://github.com/HaochengWang23//AIR-5021-Team6-FinalProject.git
 
 See [INSTALL.md](./INSTALL.md) for installation instructions. 
 
-# 🧑🏻‍💻 Usage 
+# Usage 
 ## 1. Task Running and Data Collection
 Running the following command will first search for a random seed for the target collection quantity (default is 100), and then replay the seed to collect data.
 
@@ -35,7 +35,7 @@ bash run_task.sh ${task_name} ${gpu_id}
 
 
 ## 2. Task Config
-> We strongly recommend you to view [Config Tutorial](./CONFIG_TUTORIAL.md) for more details.
+> It is recommended to view [Config Tutorial](./CONFIG_TUTORIAL.md) for more details.
 
 Data collection configurations are located in the `config` folder, corresponding to each task. 
 
